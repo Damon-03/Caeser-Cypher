@@ -10,8 +10,6 @@ namespace CaeserCypher
     {
         static void Main(string[] args)
         {
-            string d = Char.ConvertToUtf32();
-            string c = Char.ConvertFromUtf32(65);
             Console.WriteLine("Enter you message"); 
             string message = Console.ReadLine(); // Recieves the Message you want to encode.
             int mesLen = message.Length; // Stores the length of the message in a int.
